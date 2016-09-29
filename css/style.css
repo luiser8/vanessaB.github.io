@@ -1,0 +1,134 @@
+body{
+	background: #fff;
+	opacity: 0.9;
+	color: #000;
+}
+#container{
+	margin-top: 10%;
+}
+.navbar-default{
+	background-color: #fff;
+	border-color: #fff;
+}
+@font-face{
+	font-family: Felix;
+	src: url('FelixTitling.ttf');
+}
+@font-face{
+	font-family: Nyala;
+	src: url('Nyala.ttf');
+}
+
+.imagenes{
+	width: 80%;
+	margin: 0 auto;
+}
+.slides{
+	border-radius: 5px;
+}
+.navbar{
+	font-size: 2rem;
+	margin-bottom: 1px;
+	padding-bottom: -15px;
+}
+img{
+	max-width: 90%;
+}
+.navbar-header{
+	margin-top: 0;
+}
+.navbar-brand{
+	margin-bottom: 0 auto;
+	font-size: 60px;
+	padding-top: 2%;
+}
+.navbar-nav{
+	font-family: Nyala;
+	font-size: 1.2em;
+	margin-top: 2%;
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.header{
+	margin-bottom: 0%;
+}
+.header p{
+	font-family: Felix;
+	font-size: 1em;
+	color: #000;
+	margin-left: 250px;
+}
+/*Media querys*/
+@media(max-width:1167px){
+	.header p{
+		font-family: Felix;
+		font-size: 60px;
+	}
+	#container{
+		margin-top: 10%;
+	}
+}
+@media(max-width:1101px){
+	.header p{
+	font-family: Felix;
+	font-size: 40px;
+	}
+}
+@media(max-width:766px){
+	.header p{
+	font-family: Felix;
+	font-size: 30px;
+	}
+}
+@media(max-width:650px){
+	.header p{
+	font-family: Felix;
+	font-size: 20px;
+	}
+}
+@media(max-width:600px){
+	.header p{
+	font-family: Felix;
+	font-size: 20px;
+	}
+}
+@media(max-width:502px){
+	.navbar-brand p{
+	font-family: Felix;
+	font-size: 15px;
+	margin-left: 0;
+	}
+}
+@media(min-width: 768px){
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+/*fin media querys*/
+a{
+	color: #808080;
+}
+.navbar-nav li > a:hover{
+	color: #808080;
+	background: transparent;
+}
+section{
+	margin-top: 10%;
+}
+/*Sticky header*/
+.scroll{
+	background-color: #000;
+}
+/*fin sticky header*/
+.panel-footer{
+	background-color: #fff;
+}
