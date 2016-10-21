@@ -60,7 +60,7 @@ img{
 	font-family: Felix;
 	font-size: 1em;
 	color: #000;
-	margin-left: 250px;
+	margin-left: 270px;
 }
 /*Media querys*/
 @media(max-width:1167px){
@@ -131,4 +131,13 @@ section{
 /*fin sticky header*/
 .panel-footer{
 	background-color: #fff;
+}
+
+/*Redes sociales*/
+.redes{
+	max-width: 10%;
+	min-width: 5%;
+}
+.pull-right{
+	margin-bottom: 10px;
 }
